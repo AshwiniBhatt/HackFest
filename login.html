@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRA Fitness - Login</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(to right, #8ecae6, #219ebc);
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .header {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: #219ebc;
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+        margin-left: 1rem;
+      }
+
+      .btn {
+        background: #ffb703;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        font-size: 1rem;
+        margin-right: 1rem;
+      }
+
+      .btn:hover {
+        background: #fb8500;
+      }
+
+      .login-box {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        width: 300px;
+      }
+
+      .login-box h2 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+        color: #219ebc;
+      }
+
+      .login-box input {
+        width: 100%;
+        padding: 0.75rem;
+        margin: 0.75rem 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      .login-box .login-btn {
+        background-color: #219ebc;
+        color: white;
+        border: none;
+        padding: 0.75rem;
+        border-radius: 25px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 1rem;
+        transition: background-color 0.3s ease;
+      }
+
+      .login-box .login-btn:hover {
+        background-color: #1d5e78;
+      }
+
+      footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding: 0.5rem;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>ASTRA Fitness</h1>
+      <a href="index.html">
+        <button class="btn">Back to Plans</button>
+      </a>
+    </header>
+
+    <section>
+      <div class="login-box">
+        <h2>Login to Your Account</h2>
+        <form action="#" method="post">
+          <input type="email" name="email" placeholder="Enter your email" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>&copy; 2024 ASTRA Fitness. All Rights Reserved.</footer>
+  </body>
+</html>
